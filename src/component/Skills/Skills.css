@@ -1,0 +1,48 @@
+.skill{
+    padding: 2rem;
+}
+
+.skill h2{
+    font-style: italic;
+}
+
+.stacks div {
+    font-size: 100px;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: -2px -1px beige;
+}
+
+.stacks div h4, p{
+    font-size: 15px;
+    margin-top: -8px;
+}
+
+.stacks{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+.lines{
+    position: absolute;
+    left: 50%;
+    bottom: 7px;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+    .stacks{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .stacks{
+        grid-template-columns:  1fr;
+    }
+}

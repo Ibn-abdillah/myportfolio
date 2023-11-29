@@ -1,0 +1,67 @@
+.my_projects{
+    padding: 1rem 2rem 0;
+}
+.projects_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project{
+    flex-basis: 28%;
+    margin: 2%;
+}
+
+.project img{
+    width: 100%;
+}
+
+.project h5{
+    margin: -1px 0 8px;
+}
+
+.project p{
+    text-align: left;
+    font-size: 12px;
+}
+
+.btn{
+    margin-top: -8px;
+}
+
+button{
+    border: 0;
+    margin: 5px;
+    padding: 5px 10px;
+    color: khaki;
+    font-style: italic;
+    background: #000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover{
+    color: #fff;
+    font-style: normal;
+    border: 1px solid khaki;
+}
+
+@media screen and (max-width: 600px) {
+    
+   .project{
+      flex-basis: 45%;
+      margin: 2%;
+ }
+
+ .btn{
+    display: flex;
+    justify-content: center;
+ }
+}
+
+@media screen and (max-width: 600px) {
+    .project{
+        flex-basis: 80%;
+    }
+}
