@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom'
 function Contact() {
   return (
     <div className='contact_page'>
-       <h2>Why you should hire me ?</h2>
-        <h4>You should hire me because :-</h4>
+        <h4>Why you should hire me ?</h4>
+        <h3>You should hire me because :-</h3>
         <ul>
           <li>My ability to maintain strong interpersonal relationships with several clients.</li>
           <li>My relevant skills, experience, and passion for the industry.</li>

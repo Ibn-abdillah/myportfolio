@@ -1,16 +1,21 @@
 .contact_page {
-    padding: 2rem 2rem 0.5rem;
+    padding: 1rem .5rem .5rem;
 }
-.contact_page h4{
-    text-align: left;
+.contact_page h4, .contact_page ul{
+    font-style: italic;
 }
 
 .contact_page ul{
     text-align: left;
 }
 
+.contact_page h3{
+    text-align: left;
+}
+
 .contact_page ul li{
     margin-top: 10px;
+    margin-left: -5px;
 }
 
 .phone {

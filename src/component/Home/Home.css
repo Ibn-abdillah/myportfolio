@@ -50,6 +50,10 @@
 }
 
 @media screen and (max-width: 690px) {
+    .home{
+        padding: 1rem .8rem;
+    }
+
     .home-content{
         justify-content: center;
     }
